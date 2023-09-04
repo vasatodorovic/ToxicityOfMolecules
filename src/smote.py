@@ -8,7 +8,7 @@ y_test=pd.read_csv('C:/Users/KORISNIK/Desktop/za fakultet/ToxicityOfMolecules/y_
 
 
 smote = SMOTE(sampling_strategy='auto', random_state=42)
-X_test_smote, y_test_smote = smote.fit_resample(X_test_rfe, y_test)
+X_train_smote, y_train_smote = smote.fit_resample(X_train_rfe, y_train)
 
-X_test_smote.to_csv("C:/Users/KORISNIK/Desktop/za fakultet/ToxicityOfMolecules/X_test_smote.csv",index=False)
-y_test_smote.to_csv("C:/Users/KORISNIK/Desktop/za fakultet/ToxicityOfMolecules/y_test_smote.csv",index=False)
+X_train_smote.to_csv("C:/Users/KORISNIK/Desktop/za fakultet/ToxicityOfMolecules/X_train_smote.csv",index=False)
+y_train_smote.to_csv("C:/Users/KORISNIK/Desktop/za fakultet/ToxicityOfMolecules/y_train_smote.csv",index=False)
