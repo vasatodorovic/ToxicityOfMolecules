@@ -16,7 +16,4 @@ In this project, we employed various machine learning techniques to develop pred
 
 - **Ensemble Methods:** Ensemble techniques, such as Bagging, AdaBoost and Random Forest, were implemented to combine the strengths of multiple models and enhance overall predictive performance.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
